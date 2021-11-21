@@ -1,0 +1,162 @@
+@media(max-width: 768px) {
+    .header__navbar {
+        display: block;
+    }
+
+    .header__navbar ul {
+        position: fixed;
+        top: 0;
+        right: -230px;
+        width: 230px;
+        height: 100vh;
+        background-color: var(--darkcolor);
+        z-index: 999;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 2rem;
+        margin: 0;
+        transition: 0.5s;
+    }
+
+    .header__navbar ul li {
+        padding: 1.3rem;
+        margin-left: 0;
+    }
+
+    .header__navbar ul i {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        display: block;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .fa-bars {
+        display: block !important;
+        color: #fff;
+    }
+
+    .header__textbox h1 {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 767px) {
+    .footer__center {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .column {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .footer__top {
+        padding-bottom: 3rem;
+    }
+
+    html {
+        font-size: 80%;
+    }
+
+    .footer__top h1 {
+        font-size: 2rem;
+    }
+
+    .header__textbox {
+        max-width: 100%;
+    }
+
+    .help__wrap {
+        flex-direction: column;
+    }
+
+    .help__right {
+        padding-top: 50px;
+    }
+
+    .help__title h1 {
+        font-size: 2rem;
+    }
+
+    .help__left h2 {
+        font-size: 1.5rem;
+    }
+
+    .digital__wrapper,
+    .team__wrapper {
+        flex-direction: column;
+    }
+
+    .digital__title,
+    .team__title {
+        font-size: 2rem;
+    }
+
+    .digital__right>img,
+    .team__right>img {
+        margin-top: 3rem;
+    }
+
+    .work__bottom {
+        text-align: center;
+    }
+
+    .work__top h1 {
+        font-size: 2rem;
+    }
+
+    .work__center {
+        flex-direction: column;
+    }
+
+    .work__list1 {
+        margin-right: 0;
+    }
+
+    .work__list2 {
+        margin-left: 0;
+    }
+
+    .work__image {
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .business__content h2 {
+        font-size: 1.5rem;
+    }
+
+    .business__content p {
+        margin-top: 0;
+    }
+
+    .project__wrapper h1 {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 576px) {
+    .work__overlay {
+        top: 30px;
+    }
+
+    .business__content h2 {
+        font-size: 1.2rem;
+    }
+
+    .business__content p {
+        font-size: 0.75rem;
+        line-height: 1.6;
+    }
+}
+
+@media(max-width: 991px) {
+    .header__wave {
+        margin-top: -1px;
+    }
+}
